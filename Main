@@ -40,7 +40,7 @@ class Login {
     // Cell phone validation
     public boolean checkCellPhoneNumber(String phoneNumber) {
 
-        if (!phoneNumber.startsWith("+27")) return false;
+        if (!phoneNumber.startsWith("0")) return false;
         if (phoneNumber.length() != 12) return false;
 
         for (int i = 3; i < phoneNumber.length(); i++) {
