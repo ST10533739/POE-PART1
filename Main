@@ -84,7 +84,7 @@ class Login {
         if (status) {
             return "Welcome back! Login successful.";
         } else {
-            return "Username or password incorrect, please try .";
+            return "Username or password incorrect, please try again .";
         }
     }
 }
